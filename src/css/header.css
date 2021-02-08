@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+}
+#header {
+    height: 120px;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    border-top: 5px solid #F9CB0C;
+}
+
+#logo {
+    width: 30%;
+    font-size: 30px;
+    float: left;
+    margin-top: 35px;
+}
+#logo img {
+    display: block;
+    float: left;
+    height: 50px;
+    margin-right: 5px;
+    animation: girar infinite 30s linear;
+}
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+#brand{
+    display: block;
+    margin: 0px;
+    float: left;
+}
+.center{
+    width: 75%;
+    margin: 0 auto;
+}
+.clearFix{
+    clear: both;
+    float: none;
+}
+#menu {
+    width: 70%;
+    float: right;
+    font-size: 18px;
+}
+#menu ul {
+    line-height: 85px;
+    width: 60%;
+    float: right;
+}
+#menu ul li {
+    list-style: none;
+    height: 46px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+#menu a {
+    text-decoration: none;
+    color: #000;
+    transition: 300ms all;
+}
+#menu a:hover {
+   color: #F9CB0C;
+}
