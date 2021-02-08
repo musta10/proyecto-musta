@@ -1,11 +1,11 @@
 import './App.css';
 import Header from './components/Header'
-import SliderCard from './components/SliderCard'
+import SliderHome from './components/SliderHome'
 function App() {
   return (
     <div className="App">
       <Header />
-      <SliderCard />
+      <SliderHome />
       <header className="App-header">
       </header>
     </div>

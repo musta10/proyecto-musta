@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import '../css/slidercard.css'
+import '../css/sliderhome.css'
 
 class SliderHome extends Component {
     render() {
