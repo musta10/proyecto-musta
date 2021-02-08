@@ -30,6 +30,10 @@ body{
     width: 75%;
     margin: 0 auto;
 }
+.clearFix{
+    clear: both;
+    float: none;
+}
 #menu {
     width: 70%;
     float: right;
@@ -37,4 +41,22 @@ body{
 }
 #menu ul {
     line-height: 85px;
+    width: 60%;
+    float: right;
+}
+#menu ul li {
+    list-style: none;
+    height: 46px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+#menu a {
+    text-decoration: none;
+    color: #000;
+    transition: 300ms all;
+}
+#menu a:hover {
+   color: #F9CB0C;
 }

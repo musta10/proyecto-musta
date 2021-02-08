@@ -31,13 +31,12 @@ class Header extends Component {
                 <a href="#">La Nueva</a>
               </li>
               <li>
-                <a href="#">La Nueva</a>
-              </li>
-              <li>
                 <a href="#">Top 5</a>
               </li>
             </ul>
           </nav>
+           {/* FLOAT */}
+           <div className="clearFix"></div>
         </div>
       </header>
     );
