@@ -1,0 +1,11 @@
+#slider {
+    width: 100%;
+    background: #F9CB0C;
+    height: 350px;
+    line-height: 320px;
+    color: white;
+    text-shadow: 0px 0px 5px #444;
+}
+#slider, img {
+   vertical-align: -15px;
+}
