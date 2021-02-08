@@ -11,7 +11,7 @@ class Header extends Component {
           <div id="logo">
             <img
               src={logo}
-              className="app-logo"
+              className="App-logo"
               alt="Logotipo"
             />
             <span id="brand">
@@ -29,6 +29,12 @@ class Header extends Component {
               </li>
               <li>
                 <a href="#">La Nueva</a>
+              </li>
+              <li>
+                <a href="#">La Nueva</a>
+              </li>
+              <li>
+                <a href="#">Top 5</a>
               </li>
             </ul>
           </nav>
