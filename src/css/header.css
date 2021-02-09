@@ -69,3 +69,19 @@ body{
 #menu a:hover {
    color: #F9CB0C;
 }
+
+
+@media screen and (max-width: 1183px) {
+    .center{
+      width: 85%;
+    }
+    }
+  
+  @media screen and (max-width: 999px) {
+        .center{
+          width: 95%;
+        }
+        #menu ul {
+            width: auto;
+        }
+        }
