@@ -4,13 +4,6 @@ margin: 0;
 box-sizing: border-box;
 }
 
-#header {
-    height: 120px;
-    width: 100%;
-    background: white;
-  
-   
-}
 #logo {
     display: flex;
 }
@@ -21,7 +14,6 @@ nav {
     min-height: 10vh;
     width: 100%;
     align-items: center;
-    height: 90px; 
 }
 .navlinks{
     display: flex;
@@ -31,6 +23,7 @@ nav {
 }
 #brand{
     font-size: 24px;
+    letter-spacing: 2px;
 }
 #logo img {
     animation: girar infinite 30s linear;
@@ -48,7 +41,29 @@ nav {
     text-decoration: none;
     color: #000;
     transition: 300ms all;
+    letter-spacing: 3px;
 }
 .navlinks a:hover {
    color: #F9CB0C;
+}
+.hamburger-menu{
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 740px ) {
+    .hamburger-menu{
+        display: block;
+    }
+    .navlinks{
+        position: absolute;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        align-items: center;
+        width: 100%;
+        top: 10vh;
+    }
+
 }

@@ -31,6 +31,9 @@ const Header = () => {
                 <a href="#">Top 5</a>
               </li>
             </ul>
+            <div className="hamburger-menu">
+            <img src="https://img.icons8.com/android/24/000000/menu.png"/>
+            </div>
           </nav>
     );
 }
