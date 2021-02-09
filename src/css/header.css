@@ -64,6 +64,13 @@ nav {
         align-items: center;
         width: 100%;
         top: 10vh;
+        background: #F9CB0C;
+        font-size: 32px;
+       
     }
+    .navlinks a{
+        color: #fff;
+    }
+
 
 }
