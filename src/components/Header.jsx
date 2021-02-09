@@ -1,6 +1,7 @@
 import React, { useState} from "react";
 import logo from "../assets/logo/palmeracirculo.png";
 import '../css/header.css'
+import SliderCard from '../components/SliderCard'
 
 const Header = () => {
   const [navLinkOpen, navLinkToggle] = useState(false);
@@ -15,6 +16,7 @@ const Header = () => {
      return classes
   }
     return (
+      <>
         <nav>
           {/* EL LOGO */}
           <div id="logo">
@@ -46,6 +48,8 @@ const Header = () => {
             <img src="https://img.icons8.com/android/24/000000/menu.png"/>
             </div>
           </nav>
+          <SliderCard />
+          </>
     );
 }
 
