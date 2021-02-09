@@ -1,8 +1,15 @@
-import React, { Component } from "react";
+import React, { useState} from "react";
 import logo from "../assets/logo/palmeracirculo.png";
 import '../css/header.css'
 
 const Header = () => {
+  const [navLinkOpen, navLinkToggle] = useState(false);
+  // const state = useState(false)
+  // const navLinkOpen = state[0]
+  // const navLinkToggle = state[1]
+  const handlenavLinksToggle = () =>{
+    navLinkToggle(!navLinkOpen)
+  }
     return (
         <nav>
           {/* EL LOGO */}
@@ -31,7 +38,7 @@ const Header = () => {
                 <a href="#">Top 5</a>
               </li>
             </ul>
-            <div className="hamburger-menu">
+            <div onClick={handlenavLinksToggle} className="hamburger-menu">
             <img src="https://img.icons8.com/android/24/000000/menu.png"/>
             </div>
           </nav>

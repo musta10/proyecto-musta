@@ -52,6 +52,9 @@ nav {
 }
 
 @media screen and (max-width: 740px ) {
+    body{
+        overflow-x: hidden;
+    }
     .hamburger-menu{
         display: block;
     }
@@ -66,7 +69,11 @@ nav {
         top: 10vh;
         background: #F9CB0C;
         font-size: 32px;
+        transform: translate(100%);
        
+    }
+    .active{
+        transform: translate(0%);
     }
     .navlinks a{
         color: #fff;
