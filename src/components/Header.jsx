@@ -10,6 +10,8 @@ const Header = () => {
             <img
               src={logo}
               alt="Logotipo"
+              width="40"
+              height="40"
             />
             <span id="brand">
               <strong>Trap</strong>Family
