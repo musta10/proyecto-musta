@@ -2,11 +2,9 @@ import React, { Component } from "react";
 import logo from "../assets/logo/palmeracirculo.png";
 import '../css/header.css'
 
-class Header extends Component {
-  render() {
+const Header = () => {
     return (
-      <header id="header">
-        <div className="center">
+        <nav>
           {/* EL LOGO */}
           <div id="logo">
             <img
@@ -18,9 +16,7 @@ class Header extends Component {
               <strong>Trap</strong>Family
             </span>
           </div>
-          {/* MENU NAVEGACION */}
-          <nav id="menu">
-            <ul>
+          <ul>
               <li>
                 <a href="#">Trap</a>
               </li>
@@ -35,12 +31,7 @@ class Header extends Component {
               </li>
             </ul>
           </nav>
-           {/* FLOAT */}
-           <div className="clearFix"></div>
-        </div>
-      </header>
     );
-  }
 }
 
 export default Header;
