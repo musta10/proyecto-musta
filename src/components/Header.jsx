@@ -9,24 +9,23 @@ const Header = () => {
           <div id="logo">
             <img
               src={logo}
-              className="App-logo"
               alt="Logotipo"
             />
             <span id="brand">
               <strong>Trap</strong>Family
             </span>
           </div>
-          <ul>
-              <li>
+          <ul className="navlinks">
+              <li className="link">
                 <a href="#">Trap</a>
               </li>
-              <li>
+              <li className="link">
                 <a href="#">No Trap</a>
               </li>
-              <li>
+              <li className="link">
                 <a href="#">La Nueva</a>
               </li>
-              <li>
+              <li className="link">
                 <a href="#">Top 5</a>
               </li>
             </ul>
