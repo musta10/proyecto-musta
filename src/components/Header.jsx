@@ -4,9 +4,6 @@ import '../css/header.css'
 
 const Header = () => {
   const [navLinkOpen, navLinkToggle] = useState(false);
-  // const state = useState(false)
-  // const navLinkOpen = state[0]
-  // const navLinkToggle = state[1]
   const handlenavLinksToggle = () =>{
     navLinkToggle(!navLinkOpen)
   }
