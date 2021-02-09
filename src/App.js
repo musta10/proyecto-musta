@@ -1,14 +1,17 @@
-import './App.css';
 import Header from './components/Header'
 import SliderCard from './components/SliderCard'
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
+
 function App() {
   return (
+    <BrowserRouter>
+    <Switch>
     <div className="App">
       <Header />
       <SliderCard />
-      <header className="App-header">
-      </header>
     </div>
+      </Switch>
+      </BrowserRouter>
   );
 }
 
