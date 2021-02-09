@@ -10,6 +10,13 @@ const Header = () => {
   const handlenavLinksToggle = () =>{
     navLinkToggle(!navLinkOpen)
   }
+  const renderClass = () => {
+    let classes = "navlinks";
+    if (navLinkOpen) {
+      classes += " active"
+    }
+     return classes
+  }
     return (
         <nav>
           {/* EL LOGO */}
@@ -24,7 +31,7 @@ const Header = () => {
               <strong>Trap</strong>Family
             </span>
           </div>
-          <ul className="navlinks">
+          <ul className={renderClass()}>
               <li className="link">
                 <a href="#">Trap</a>
               </li>
