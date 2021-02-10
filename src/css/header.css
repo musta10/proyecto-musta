@@ -16,15 +16,9 @@ nav {
     align-items: center;
     border-bottom: 1px solid rgb(240, 240, 240);
 }
-.navlinks{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    width: 50%;
-}
 #brand{
     font-size: 24px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 #logo img {
     animation: girar infinite 30s linear;
@@ -36,49 +30,4 @@ nav {
     to {
         transform: rotate(360deg);
     }
-}
-
-.navlinks a {
-    text-decoration: none;
-    color: #000;
-    transition: 300ms all;
-    letter-spacing: 3px;
-}
-.navlinks a:hover {
-   color: #F9CB0C;
-}
-.hamburger-menu{
-    cursor: pointer;
-    display: none;
-}
-
-@media screen and (max-width: 740px ) {
-    body{
-        overflow-x: hidden;
-    }
-    .hamburger-menu{
-        display: block;
-    }
-    .navlinks{
-        position: absolute;
-        right: 0;
-        display: flex;
-        flex-direction: column;
-        height: 90vh;
-        align-items: center;
-        width: 100%;
-        top: 10vh;
-        background: #F9CB0C;
-        font-size: 24px;
-        transform: translate(100%);
-       
-    }
-    .active{
-        transform: translate(0%);
-    }
-    .navlinks a{
-        color: #fff;
-    }
-
-
 }
