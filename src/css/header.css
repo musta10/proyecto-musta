@@ -4,9 +4,11 @@ margin: 0;
 box-sizing: border-box;
 }
 
-#logo {
-    display: flex;
-}
+#brand {
+    font-size: 24px;
+    letter-spacing: 5px;
+  }
+
 nav {
     border-top: 5px solid #F9CB0C;
     display: flex;
@@ -16,10 +18,7 @@ nav {
     align-items: center;
     border-bottom: 1px solid rgb(240, 240, 240);
 }
-#brand{
-    font-size: 24px;
-    letter-spacing: 5px;
-}
+
 .titulo{
     height: 24px;
 }
@@ -33,4 +32,8 @@ nav {
     to {
         transform: rotate(360deg);
     }
+}
+
+#logo {
+  display: flex;
 }
