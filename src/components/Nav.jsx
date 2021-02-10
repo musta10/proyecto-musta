@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "../assets/logo/palmeracirculo.png";
-// import Lista from './Lista'
+import Lista from './Lista'
 import '../css/header.css'
 
 class Nav extends Component {
@@ -20,7 +20,7 @@ class Nav extends Component {
               <strong>Trap</strong>Family
             </span>
           </div>
-        <div>
+        <div className="titulo">
           <p>Musica <strong>Trap</strong>  y Drill</p>
         </div>
             </nav>
