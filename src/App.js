@@ -1,14 +1,15 @@
-import './App.css';
-import Header from './components/Header'
 import SliderCard from './components/SliderCard'
+// import Nav from './components/Nav'
+import Lista from './components/Lista'
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
+
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <SliderCard />
-      <header className="App-header">
-      </header>
-    </div>
+    <BrowserRouter>
+    <Switch>
+      <Lista />
+      </Switch>
+      </BrowserRouter>
   );
 }
 
