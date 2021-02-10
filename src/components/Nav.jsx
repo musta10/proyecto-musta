@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import logo from "../assets/logo/palmeracirculo.png";
+// import Lista from './Lista'
 import '../css/header.css'
 
 class Nav extends Component {
     render() {
         return(
+          <>
           <nav>
           {/* EL LOGO */}
           <div id="logo">
@@ -22,6 +24,8 @@ class Nav extends Component {
           <p>Musica <strong>Trap</strong>  y Drill</p>
         </div>
             </nav>
+            {/* <Lista /> */}
+            </>
         )
     }
 }
