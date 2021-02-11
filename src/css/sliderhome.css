@@ -6,15 +6,7 @@
     background: rgb(213,148,0);
     background: radial-gradient(circle, rgba(213,148,0,1) 0%, rgba(255,213,40,1) 35%, rgba(255,157,0,1) 100%);
 }
-#slider img {
-   vertical-align: -15px;
-}
-#slider h2{
-    margin-top: 0.2px;
-    padding: 0;
-    padding-top: 138px;
-    text-align: center;
-}
+
 .btn-home{
     color:rgb(88, 88, 88);
     background: white;
@@ -35,13 +27,4 @@
 .btn-home:hover{
     background: #000;
     color: white;
-}
-#slider.slider-inicio {
-    height: 150px;
-}
-#slider.slider-inicio h2{
-    margin-top: 0.2px;
-    padding: 0;
-    padding-top: 53px;
-    text-align: center;
 }
