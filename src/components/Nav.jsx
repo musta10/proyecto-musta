@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import logo from "../assets/logo/palmeracirculo.png";
 // import Lista from "./Lista";
+import Tabs from "react-bootstrap/Tabs";
+import Tab from "react-bootstrap/Tab";
 import "../css/header.css";
+import Topmusic from '../components/Topmusic'
 import styled from "styled-components";
 
 class Nav extends Component {
@@ -23,6 +26,20 @@ class Nav extends Component {
           </div>
         </nav>
         {/* <Lista /> */}
+        <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
+        <Tab eventKey="trap" title="Trap">
+          {/* <Sonnet /> */}
+        </Tab>
+        <Tab eventKey="notrap" title="No Trap">
+          {/* <Sonnet /> */}
+        </Tab>
+        <Tab eventKey="lanueva" title="La Nueva">
+          {/* <Sonnet /> */}
+        </Tab>
+        <Tab eventKey="Top 5" title="Top 5">
+          <Topmusic />
+        </Tab>
+      </Tabs>
       </>
     );
   }
