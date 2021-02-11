@@ -1,12 +1,19 @@
 import React, { Component } from "react";
 import '../css/trap.css'
+import ListGroup from 'react-bootstrap/ListGroup'
 class Trap extends Component {
   render() {
     return (
         <>
+        <ListGroup>
         <h3 className="titulo">Quien es el Rey del Trap ?</h3>
         <p className="titulo">21 artistas cantan Trap</p>
-    <ul className="menu">
+  <ListGroup.Item><a href="">Myke Towers</a></ListGroup.Item>
+  <ListGroup.Item><a href="">Bad Bunny</a></ListGroup.Item>
+  <ListGroup.Item><a href="">Brytiago</a></ListGroup.Item>
+  <ListGroup.Item><a href="">AnuelAA</a></ListGroup.Item>
+</ListGroup>
+    {/* <ul className="menu">
     <li><a href="">Myke Towers</a></li>
     <li><a href="">Bad Bunny</a></li>
     <li><a href="">Brytiago</a></li>
@@ -28,7 +35,7 @@ class Trap extends Component {
     <li><a href="">Ñejo</a></li>
     <li><a href="">Jamby El Favo</a></li>
     <li><a href="">Anonimus</a></li>
-</ul>
+</ul> */}
 </>
     );
   }

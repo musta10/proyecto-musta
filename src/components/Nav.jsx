@@ -5,8 +5,8 @@ import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import "../css/header.css";
 import Topmusic from '../components/Topmusic'
-// import Trap from '../components/Trap'
-import styled from "styled-components";
+import Trap from '../components/Trap'
+// import styled from "styled-components";
 
 class Nav extends Component {
   render() {
@@ -29,9 +29,9 @@ class Nav extends Component {
         {/* <Lista /> */}
         <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
         <Tab eventKey="trap" title="Trap">
-          {/* <Trap /> */}
+          <Trap />
         </Tab>
-        <Tab eventKey="notrap" title="No Trap">
+        <Tab eventKey="notrap" title="Reggaeton">
           {/* <Sonnet /> */}
         </Tab>
         <Tab eventKey="lanueva" title="La Nueva">
