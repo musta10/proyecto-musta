@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "../assets/logo/palmeracirculo.png";
-import Lista from "./Lista";
+// import Lista from "./Lista";
 import "../css/header.css";
 import styled from "styled-components";
 
