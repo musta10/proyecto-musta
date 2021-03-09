@@ -24,58 +24,58 @@ class Trap extends Component {
             <a href="https://youtube.com/c/AnuelAA">AnuelAA</a>
           </li>
           <li>
-            <a href="">Bryant Myers</a>
+            <a href="https://youtube.com/c/BryantMyersTV">Bryant Myers</a>
           </li>
           <li>
-            <a href="">Jhay Cortez</a>
+            <a href="https://youtube.com/channel/UCvpEyEBML6z-PJJ9XrqgpKQ">Jhay Cortez</a>
           </li>
           <li>
-            <a href="">Ñengo Flow</a>
+            <a href="https://youtube.com/c/nengoflow">Ñengo Flow</a>
           </li>
           <li>
-            <a href="">Miky Woodz</a>
+            <a href="https://youtube.com/c/MikyWoodzTV">Miky Woodz</a>
           </li>
           <li>
-            <a href="">Arcangel</a>
+            <a href="https://youtube.com/c/Arcangel">Arcangel</a>
           </li>
           <li>
-            <a href="">Eladio Carrion</a>
+            <a href="https://youtube.com/c/EladioCarrion">Eladio Carrion</a>
           </li>
           <li>
             <a href="https://www.youtube.com/watch?v=Rm__S6_ifRQ">Jamby El Favo</a>
           </li>
           <li>
-            <a href="">Kendo Kaponi </a>
+            <a href="https://youtube.com/c/KendoKaponiTV">Kendo Kaponi </a>
           </li>
           <li>
-            <a href="">Almighty</a>
+            <a href="https://youtube.com/channel/UC1Favl8RzwbKEJN_D1oryRg">Almighty</a>
           </li>
           <li>
-            <a href="">Darell</a>
+            <a href="https://youtube.com/channel/UC7i1scMCtNTreXnYs2Sr9Wg">Darell</a>
           </li>
           <li>
-            <a href="">jonZ</a>
+            <a href="https://youtube.com/c/jonztv">jonZ</a>
           </li>
           <li>
-            <a href="">Noriel</a>
+            <a href="https://youtube.com/c/NorielOfficial">Noriel</a>
           </li>
           <li>
-            <a href="">Cosculluela</a>
+            <a href="https://youtu.be/CMvW-1a8ytI">Cosculluela</a>
           </li>
           <li>
-            <a href="">Lary Over</a>
+            <a href="https://youtube.com/c/LaryOver">Lary Over</a>
           </li>
           <li>
-            <a href="">Ele A El Dominio</a>
+            <a href="https://youtube.com/c/eLeAmusicTVOficial">Ele A El Dominio</a>
           </li>
           <li>
-            <a href="">Ñejo</a>
+            <a href="https://youtube.com/c/nejoelbroko">Ñejo</a>
           </li>
           <li>
             <a href="https://www.youtube.com/user/BRYTIAGOTV">Brytiago</a>
           </li>
           <li>
-            <a href="">Anonimus</a>
+            <a href="https://youtube.com/c/AnonimusTV">Anonimus</a>
           </li>
         </ul>
       </>
