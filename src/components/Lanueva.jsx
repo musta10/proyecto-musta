@@ -1,17 +1,19 @@
 import React, { Component } from "react";
-import '../css/lanueva.css'
+import "../css/lanueva.css";
 
 class Lanueva extends Component {
   render() {
     return (
       <>
-           <p className="texto-titulo"> 19 artistas La nueva generación</p>
+        <p className="texto-titulo"> 19 artistas La nueva generación</p>
         <ul className="lista-lanueva">
           <li>
-            <a href="">Juanfran</a>
+            <a href="https://youtu.be/AEsLZAO1EDU">Maikel Delacalle</a>
           </li>
           <li>
-            <a href="">Maikel Delacalle</a>
+            <a href="https://youtube.com/channel/UC6ZwHeY5VpBuYmo5TXrO3Ew">
+              Juanfran
+            </a>
           </li>
           <li>
             <a href="">El Taiger</a>
@@ -64,8 +66,6 @@ class Lanueva extends Component {
           <li>
             <a href="">RVFV</a>
           </li>
-
-          
         </ul>
       </>
     );
