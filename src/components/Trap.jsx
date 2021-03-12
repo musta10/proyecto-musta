@@ -1,16 +1,9 @@
 import React, { Component } from "react";
 import "../css/trap.css";
-// import ListGroup from "react-bootstrap/ListGroup";
 class Trap extends Component {
   render() {
     return (
       <>
-        {/* <ListGroup>
-  <ListGroup.Item><a href="https://youtube.com/c/MykeTowers">Myke Towers</a></ListGroup.Item>
-  <ListGroup.Item><a href="https://www.youtube.com/c/BadBunnyPR">Bad Bunny</a></ListGroup.Item>
-  <ListGroup.Item><a href="https://www.youtube.com/user/BRYTIAGOTV">Brytiago</a></ListGroup.Item>
-  <ListGroup.Item><a href="https://youtube.com/c/AnuelAA">AnuelAA</a></ListGroup.Item>
-</ListGroup> */}
         <h3 className="texto-titulo">Quien es el Rey del Trap?</h3>
         <p className="texto-titulo">20 artistas cantan Trap</p>
         <ul className="menu">
