@@ -8,9 +8,19 @@
 .lista-menu a{
     color: black;
     text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    width: 100%;
 }
 .lista-menu li {
-    border-left: 3px solid  rgb(121, 110, 110);
+    box-shadow: 3px 0 rgb(249, 203, 12) inset;
     padding-left: 1.5em;
+    margin-bottom: 5px;
     /* outline: 1px solid green; */
+    -webkit-transition:all 1s;
+    -o-transition: all 1s ;
+    transition: all 1s;
+}
+.lista-menu li:hover{
+    box-shadow: 15em 0 rgb(249, 203, 12) inset;
 }
