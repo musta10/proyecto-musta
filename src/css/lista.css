@@ -10,8 +10,8 @@
     color: black;
     text-transform: uppercase;
     text-decoration: none;
-    background: url("../assets/logo/icons8apple.png") no-repeat left top;
-    padding-left: 48px;
+    background: url("../assets/logo/iconArtistas.png") no-repeat left top;
+    padding-left: 50px;
     display: block;
     width: 100%;
 }
@@ -22,7 +22,4 @@
     /* outline: 1px solid green; */
     border-radius: 5px;
     border: 1px solid rgb(121, 110, 110);
-    -webkit-transition:all 1s;
-    -o-transition: all 1s ;
-    transition: all 1s;
 }
