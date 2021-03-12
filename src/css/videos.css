@@ -9,3 +9,13 @@ iframe{
     height: 100%;
     object-fit: cover;
 }
+.tituloTop{
+    margin: 1em auto;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.texto-top{
+    color: #F9CB0C;
+}

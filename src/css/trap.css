@@ -1,9 +1,4 @@
-.titulo{
-    text-align: center;
-    color: rgb(121, 110, 110);
-}
 
-/* 
 .menu{
     background-color: white;
     list-style: none;
@@ -13,9 +8,10 @@
     width: 15em;
 
 }
-.titulo{
+.texto-titulo{
     text-align: center;
     color: rgb(121, 110, 110);
+    margin-top: 5px;
 }
 .menu a{
     background: url("../assets/logo/corona42.png") no-repeat left top;
@@ -25,27 +21,13 @@
     text-decoration: none;
     text-transform: uppercase;
     padding-left: 44px;
-    -webkit-transition:all 1s;
-    -o-transition: all 1s ;
-    transition: all 1s;
    
-}
-.menu a:hover{
-    margin-left: 1em;
 }
 .menu li {
     margin-top: 15px;
     box-shadow: 8px 0 rgba(255, 255, 255, .2) inset; 
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     padding-left: 1.4em;
-    border: 1px solid #ccc;
+    border: 1px solid #FFD628;
     border-radius: 5px;
-    -webkit-transition:all 1s;
-    -o-transition: all 1s ;
-    transition: all 1s;
-   
 }
-.menu li:hover{
-    box-shadow: 15em 0 rgba(255, 255, 255, .2) inset;
-
-} */
