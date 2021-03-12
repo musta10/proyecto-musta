@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "../assets/logo/palmeracirculo.png";
-// import Lista from "./Lista";
+import Lista from "./Lista";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import "../css/header.css";
@@ -12,7 +12,7 @@ class Nav extends Component {
   render() {
     return (
       <>
-        <nav>
+        <nav className="nav-bar">
           {/* EL LOGO */}
           <div id="logo">
             <img src={logo} alt="Logotipo" width="40" height="40" />
@@ -20,7 +20,7 @@ class Nav extends Component {
               <strong>Trap</strong>Family
             </span>
           </div>
-          <div className="titulo">
+          <div className="texto-titulo">
             <p>
               Musica <strong>Trap</strong> y Drill
             </p>
@@ -32,7 +32,7 @@ class Nav extends Component {
           <Trap />
         </Tab>
         <Tab eventKey="notrap" title="Reggaeton">
-          {/* <Sonnet /> */}
+         <Lista />
         </Tab>
         <Tab eventKey="lanueva" title="La Nueva">
           {/* <Sonnet /> */}
