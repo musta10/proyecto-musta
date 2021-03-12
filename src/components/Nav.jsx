@@ -6,6 +6,7 @@ import Tab from "react-bootstrap/Tab";
 import "../css/header.css";
 import Topmusic from '../components/Topmusic'
 import Trap from '../components/Trap'
+import Lanueva from '../components/Lanueva'
 // import styled from "styled-components";
 
 class Nav extends Component {
@@ -35,7 +36,7 @@ class Nav extends Component {
          <Lista />
         </Tab>
         <Tab eventKey="lanueva" title="La Nueva">
-          {/* <Sonnet /> */}
+          <Lanueva />
         </Tab>
         <Tab eventKey="Top 5" title="Top 5">
           <Topmusic />
